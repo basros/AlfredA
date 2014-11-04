@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alfreda</string>
+    <string name="action_settings">Settings</string>
+    <string name="wifi_name_default">berlin.freifunk.net</string>
+    <string name="wifi_name_label"> wifi name: </string>
+    <string name="allow_autostart_label"> allow autostart: </string>
+
+</resources>

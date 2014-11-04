@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:text="@string/btn_start_thread"
+            android:id="@+id/btn_start_thread"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_start_push"
+            android:id="@+id/btn_start_push"
+            android:layout_gravity="left|top"
+            android:layout_below="@+id/btn_start_thread"
+            android:layout_alignParentRight="true" android:layout_toRightOf="@+id/request_push_fact"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btn_start_push"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/request_push_fact"
+            android:layout_alignBottom="@+id/btn_start_thread"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/btn_start_thread"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/to_push_information"
+            android:singleLine="true"
+            android:layout_below="@+id/btn_start_thread"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/btn_start_push"
+            android:layout_above="@+id/listView"
+            android:lines="1"/>
+</RelativeLayout>
+

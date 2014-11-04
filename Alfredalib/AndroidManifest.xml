@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.open_mesh.Alfredalib"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <application android:label="AlfredaLib" android:icon="@drawable/ic_launcher">
+        <service
+                android:name="org.open_mesh.Alfredalib.ConnectorService"
+                android:label="ConnectorService"/>
+    </application>
+</manifest>

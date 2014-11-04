@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlfredaExample</string>
+    <string name="btn_start_thread">requestInformation</string>
+    <string name="btn_start_push">pushInformation</string>
+</resources>
